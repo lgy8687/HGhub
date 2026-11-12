@@ -26,6 +26,12 @@ Thumbs.db
 .env
 .env.*
 
+# 网页版（hgweb）：源码提交，产物/数据/密钥一律不提交
+hgweb/target/
+hgweb/web/
+hgweb/data/
+hgweb/password
+
 # API
 docs/API.md
 
